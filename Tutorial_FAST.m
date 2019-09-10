@@ -226,7 +226,8 @@ end
      [],{'RootMyc1'} );
 
 % 10 - After this you should be able to adapt the codes above to your needs
-% and the type of simulation or optimization you are conducting.
+% and the type of simulation or optimization you are conducting. For example,
+% you could run FAST for different blade stiffness to analyze the response.
 
 % Some additional resources:
 % This forum has users of FAST. https://wind.nrel.gov/forum/wind/ 
