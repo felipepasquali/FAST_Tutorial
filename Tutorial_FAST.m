@@ -1,7 +1,7 @@
 %%
 %%%%%%%%%%%%% PART 1 %%%%%%%%%%%%%
 %%%%%%%%%%%%% "INSTALLING" FAST %%%%%%%%%%%%%
-% 1 - Download FAST software from UBLearns or NWTC https://nwtc.nrel.gov/FAST8 
+% 1 - Download FAST software from UBLearns(or UBBOX) or NWTC https://nwtc.nrel.gov/FAST8 
 % 2 - Unzip the FAST.exe in a directory in your C:. In my case is C:\FAST\
 % 3 - Inside the ".../FAST/bin", are the executable files to run FAST. There
 % are 2 versions of .exe, 32 and 64-bit. Copy the path of the exe and 
