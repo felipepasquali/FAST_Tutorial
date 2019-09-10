@@ -1,15 +1,17 @@
 %%
 %%%%%%%%%%%%% PART 1 %%%%%%%%%%%%%
 %%%%%%%%%%%%% "INSTALLING" FAST %%%%%%%%%%%%%
-% 1 - Download FAST software from UBLearns(or UBBOX) or NWTC https://nwtc.nrel.gov/FAST8 
+% 1 - Download FAST software from UBLearns or NWTC https://nwtc.nrel.gov/FAST8 
 % 2 - Unzip the FAST.exe in a directory in your C:. In my case is C:\FAST\
+% Note: If you choose a directory different than C:\FAST you need to adjust 
+% all the paths to that directory. 
 % 3 - Inside the ".../FAST/bin", are the executable files to run FAST. There
 % are 2 versions of .exe, 32 and 64-bit. Copy the path of the exe and 
 % paste as a string in here. as shown below.
 
 Fast = 'C:\FAST\bin\FAST_x64.exe';
 
-% As fast does not have a GUI and works with IO files there is nothing else
+% As FAST does not have a GUI and works with IO files there is nothing else
 % needed and fast is already in your computer.
 
 %%%%%%%%%%%%% RUNNING FAST %%%%%%%%%%%%%
@@ -221,13 +223,13 @@ end
 % there should be 5 fast output files for the different wind speeds.
 
 % 9 - Let's plot the some of the data. In this case the RootMyc1 - Moment on the Root:
+addpath( genpath(FastFilePath) );
 [outData] = PlotFASToutput({'Test01_10mps.out','Test01_12mps.out','Test01_14mps.out','Test01_16mps.out'},...
     {'10mps','12mps','14mps','16mps'},...
      [],{'RootMyc1'} );
 
 % 10 - After this you should be able to adapt the codes above to your needs
-% and the type of simulation or optimization you are conducting. For example,
-% you could run FAST for different blade stiffness to analyze the response.
+% and the type of simulation or optimization you are conducting.
 
 % Some additional resources:
 % This forum has users of FAST. https://wind.nrel.gov/forum/wind/ 
