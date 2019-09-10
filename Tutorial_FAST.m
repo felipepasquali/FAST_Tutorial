@@ -1,4 +1,6 @@
 %%
+% READ VERY CAREFULLY THE STATEMENTS BELOW. Run the "uncommented" lines as 
+% you go (one at a time). For that select the whole line and press F9.
 %%%%%%%%%%%%% PART 1 %%%%%%%%%%%%%
 %%%%%%%%%%%%% "INSTALLING" FAST %%%%%%%%%%%%%
 % 1 - Download FAST software from UBLearns or NWTC https://nwtc.nrel.gov/FAST8 
