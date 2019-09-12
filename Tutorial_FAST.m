@@ -233,6 +233,8 @@ addpath( genpath(FastFilePath) );
 % 10 - After this you should be able to adapt the codes above to your needs
 % and the type of simulation or optimization you are conducting.
 
+% 11 - Check out some of the Exercises in the repository.
+
 % Some additional resources:
 % This forum has users of FAST. https://wind.nrel.gov/forum/wind/ 
 
